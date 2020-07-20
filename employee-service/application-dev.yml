@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/student_service
-    username: root
-    password: admin
+    url: jdbc:postgresql://localhost:5432/employee_service
+    username: postgres
+    password: admin@123
     tomcat:
       max-wait: 10000
       max-active: 50
@@ -19,4 +19,4 @@ logging:
         type: trace
 
 server:
-  port: 8083
+  port: 8081
