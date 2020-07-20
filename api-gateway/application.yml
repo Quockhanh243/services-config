@@ -12,6 +12,11 @@ zuul:
       serviceId: employee-service
       stripPrefix: false
       sensitiveHeaders:
+    report-service:
+      path: /report/**
+      serviceId: report-service
+      stripPrefix: false
+      sensitiveHeaders:
 server:
   port: 8080
 management:
