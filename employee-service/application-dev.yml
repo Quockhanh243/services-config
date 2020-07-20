@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/student_service
+    username: root
+    password: admin
+    tomcat:
+      max-wait: 10000
+      max-active: 50
+      test-on-borrow: true
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+logging:
+  level:
+    org:
+      hibernate:
+        type: trace
+
+server:
+  port: 8083
