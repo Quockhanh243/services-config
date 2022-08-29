@@ -1,5 +1,5 @@
 ribbon:
-  ReadTimeout: 60000
+  ReadTimeout: 50000
   ConnectTimeout: 60000
 zuul:
   ignoredServices: '*'
